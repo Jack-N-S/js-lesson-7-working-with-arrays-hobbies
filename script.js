@@ -13,7 +13,7 @@ hobbies.splice(2, 0, "kickball", "dodgeball");
 hobbies.shift();
 //console.log(hobbies);
 
-hobbies.unshift("TSLs");
+hobbies.unshift("Golf");
 //console.log(hobbies);
 
 var goals = ["developer job", "live abroad", "enjoy life"];
