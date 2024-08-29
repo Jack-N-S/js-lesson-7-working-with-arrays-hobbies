@@ -14,4 +14,14 @@ hobbies.shift();
 //console.log(hobbies);
 
 hobbies.unshift("TSLs");
-console.log(hobbies);
+//console.log(hobbies);
+
+var goals = ["developer job", "live abroad", "enjoy life"];
+var allTheThings = [...hobbies, ...goals];
+//console.log(allTheThings);
+
+var enjoyLife = allTheThings.indexOf("enjoy life");
+//console.log(enjoyLife);
+
+allTheThings.splice(10, 1);
+//console.log(allTheThings);
