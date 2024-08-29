@@ -25,3 +25,8 @@ var enjoyLife = allTheThings.indexOf("enjoy life");
 
 allTheThings.splice(10, 1);
 //console.log(allTheThings);
+
+var plans = allTheThings.map(function(item){
+    return `I can't wait to start ${item}.`;
+});
+console.log(plans);
